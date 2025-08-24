@@ -18,4 +18,4 @@ conda env create -f environment.yml
 
 ## Example
 
-See https://AJG91.github.io/blog/2025/08/16/projectile-motion.html for an example on how to use this code.
+See https://AJG91.github.io/blog/2025/08/16/projectile-motion.html and subsequent posts for an example on how to use this code.
