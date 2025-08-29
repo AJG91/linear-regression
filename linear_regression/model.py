@@ -19,7 +19,11 @@ class BuildLinearLayer():
         optimizer = self.optimizer
         
         prev_loss = 0
-        X_feat = self.concat_nonlinear(X)
+
+        if model.in_features > 1:
+            X_feat = self.concat_nonlinear(X)
+        else:
+            X_feat = X
         
         for i, epoch_i in enumerate(range(epochs)):
             y_pred = model(X_feat)
@@ -45,9 +49,15 @@ class BuildLinearLayer():
         return None
             
     def predict(self, X):
+        model = self.model
+
+        if model.in_features > 1:
+            X_feat = self.concat_nonlinear(X)
+        else:
+            X_feat = X
         
-        with tc.no_grad():
-            y = self.model(self.concat_nonlinear(X))
+        with tc.no_grad():                
+            y = model(X_feat)
             
         return tc.squeeze(y.detach())
 
