@@ -13,7 +13,7 @@ conda env create -f environment.yml
 ```
 * Enter the virtual environment with `conda activate linear-regression-env`
 * Install the packages in the repo root directory using `pip install -e .`
-  (you only need the `-e` option if you intend to edit the source code in `linear-regression/`).
+  (you only need the `-e` option if you intend to edit the source code in `linear_regression/`).
 
 
 ## Example
