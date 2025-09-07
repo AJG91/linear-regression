@@ -10,7 +10,8 @@ setup(
         "numpy",
         "torch",
         "scikit-learn",
-        "matplotlib"
+        "matplotlib",
+        "jupyter"
     ],
     package_dir={'': 'linear_regression'},
     py_modules=[splitext(basename(path))[0] for path in glob('linear_regression/*.py')],
