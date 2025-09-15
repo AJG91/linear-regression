@@ -1,5 +1,7 @@
 # Linear regression
 
+[my-website]: https://AJG91.github.io "my-website"
+
 This repository contains code that demonstrates how to apply linear regression to a polynomial using Scikit-learn and PyTorch. As an example, I use a projectile motion example.
 
 ## Getting Started
@@ -18,4 +20,4 @@ conda env create -f environment.yml
 
 ## Example
 
-See https://AJG91.github.io/blog/2025/08/16/projectile-motion.html and subsequent posts for an example on how to use this code.
+See [my website][my-website] for examples on how to use this code.
