@@ -21,3 +21,18 @@ conda env create -f environment.yml
 ## Example
 
 See [my website][my-website] for examples on how to use this code.
+
+## Citation
+
+If you use this project, please use the citation information provided by GitHub via the **“Cite this repository”** button or cite it as follows:
+
+```bibtex
+@software{linear_regression_2025,
+  author = {Alberto Garcia},
+  title = {Linear Regression},
+  year = {2025},
+  publisher = {GitHub},
+  url = {https://github.com/AJG91/linear-regression},
+  license = {MIT}
+}
+```
