@@ -26,7 +26,7 @@ See [my website][my-website] for examples on how to use this code.
 If you use this project, please use the citation information provided by GitHub via the **“Cite this repository”** button or cite it as follows:
 
 ```bibtex
-@software{linear_regression_2025,
+@software{Garcia2025LinearRegression,
   author = {Alberto Garcia},
   title = {Linear Regression},
   year = {2025},
