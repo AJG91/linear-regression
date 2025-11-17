@@ -27,7 +27,7 @@ If you use this project, please use the citation information provided by GitHub 
 
 ```bibtex
 @software{Garcia2025LinearRegression,
-  author = {Alberto Garcia},
+  author = {Alberto J. Garcia},
   title = {Linear Regression},
   year = {2025},
   publisher = {GitHub},
